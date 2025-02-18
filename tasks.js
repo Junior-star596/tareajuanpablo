@@ -31,7 +31,7 @@ function removeTask(index) {
         return;
     }
     const removed = tasks.splice(index, 1);
-    console.log(`Tarea "${removed}" eliminada.`);
+    console.log(`Tarea "${removed[0]}" eliminada.`); // Se accede al primer elemento del array eliminado
 }
 
 // Exportaciones de funciones
